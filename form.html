@@ -29,7 +29,7 @@
 			<h2>Котяча форма</h2>
 
 			<form method="post" name="cat_form" action="https://formspree.io/tanya@zebrasus.com" enctype="multipart/form-data">
-				<input type="hidden" role="uploadcare-uploader" name="picture" />
+				
 				<fieldset>
 					<legend><strong>Контактна інформація</strong></legend>
 					<p>
@@ -87,7 +87,7 @@
 						<label><input type="checkbox" name="cat_meal" value="Усе, що вполює">Усе, що вполює</label>
 					</p>
 
-					<p><label for="picture"><strong>Фото кота:</strong></label> <input type="file" id="picture" name="picture"></p>
+					<p><label for="picture"><strong>Фото кота:</strong></label><input type="hidden" role="uploadcare-uploader" name="picture" /></p>
 
 				</fieldset>
 				<br><br>
