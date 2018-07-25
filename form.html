@@ -7,6 +7,8 @@
 	<title>Cats</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script>UPLOADCARE_PUBLIC_KEY = "a077ddfa65f405d4a714";</script>
+	<script src="https://ucarecdn.com/libs/widget/2.10.2/uploadcare.full.min.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -27,6 +29,7 @@
 			<h2>Котяча форма</h2>
 
 			<form method="post" name="cat_form" action="https://formspree.io/tanya@zebrasus.com" enctype="multipart/form-data">
+				<input type="hidden" role="uploadcare-uploader" name="picture" />
 				<fieldset>
 					<legend><strong>Контактна інформація</strong></legend>
 					<p>
